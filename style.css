@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    /*flex-direction: column;*/
+    /*justify-content: space-evenly;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+}
+.div-one{
+    background: #1976d2;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    order: 1;
+}
+.div-tow{
+    background: #19d21c;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    order: 0;
+}
+.div-three{
+    background: #d5116c;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    order: -1;
+}
